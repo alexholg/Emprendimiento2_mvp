@@ -1,0 +1,55 @@
+.fore-mute-light {
+	color: #e5e5e5;
+}
+
+.fore-mute {
+	color: #b5b5b5;
+}
+
+.fore-mute-dark {
+	color: #3a3a3a;
+}
+
+.fore-color-1 {
+	color: #f28d4f;
+}
+
+.border-mute {
+	border-color: #b5b5b5;
+}
+
+.border-mute-dark {
+	border-color: #9a9a9a;
+}
+
+.border-mute-light {
+	border-color: #e5e5e5;
+}
+
+.border-color-1 {
+	border-color: #f28d4f;
+}
+
+.background-mute {
+	background-color: #b5b5b5;
+}
+
+.background-mute.navbar-link {
+	background-color: #707070;
+}
+
+.background-mute-dark {
+	background-color: #3a3a3a;
+}
+
+.background-mute-light {
+	background-color: #e5e5e5;
+}
+
+.background-color-1 {
+	background-color: #f28d4f !important; /* !important needed to override the default WSX5 CSS code */
+}
+
+.background-mute-vary {
+	background-color: white;
+}

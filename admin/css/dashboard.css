@@ -1,0 +1,151 @@
+.dashboard-box {
+	width: 31%;
+	box-sizing: border-box;
+	min-width: 300px;
+	max-width: 600px;
+	height: 360px;
+	float: left;
+	margin-left: 2%;
+	margin-bottom: 20px;
+	position: relative;
+}
+
+.dashboard-box .dismiss {
+	position: absolute;
+	right: 10px;
+	top: 15px;
+	cursor: pointer;
+}
+
+.dashboard-box > .title {
+	margin: 0 10px;
+	padding: 10px 4px;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+
+.dashboard-box > .title img {
+	vertical-align: -28%;
+	margin-right: 10px;
+	width: 24px;
+}
+
+.dashboard-box .content {
+	margin: 10px 14px;
+}
+
+.dashboard-box .bottom {
+	position: absolute;
+	left: 14px;
+	right: 14px;
+	bottom: 10px;
+}
+
+.dashboard-box .subtitle {
+	margin-bottom: 10px;
+}
+
+.dashboard-box .summary {
+	padding: 5px 0 5px 10px;
+	border-bottom: 1px solid #b5b5b5;
+}
+
+.dashboard-box .summary .icon {
+	margin-right: 20px;
+}
+
+.dashboard-box .summary .value {
+	width: 10%;
+	display: inline-block;
+	font-weight: 400;
+}
+
+.dashboard-box .summary .caption {
+	width: 70%;
+	display: inline-block;
+}
+
+.dashboard-box .simple-plot-container {
+	max-height: 120px;
+}
+
+.dashboard-box .comment,
+.dashboard-box .user {
+	border-bottom: 1px solid #b5b5b5;
+	padding: 12px 10px;
+}
+
+.dashboard-box .comment span,
+.dashboard-box .user span {
+	display: inline-block;
+	width: 32%;
+	overflow: hidden;
+  	text-overflow: ellipsis;
+}
+
+.dashboard-box .comment {
+	margin-top: 6px;
+}
+
+.dashboard-box .comment .row-1 {
+	margin-bottom: 5px;
+}
+
+.dashboard-box .comment .row-1 span,
+.dashboard-box .comment .row-2 {
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
+}
+
+.dashboard-box .user {
+	margin-top: 23px;
+}
+
+.dashboard-box .test {
+	display: table-row;
+}
+
+.dashboard-box .test span {
+	display: table-cell;
+	vertical-align: middle;	
+	padding: 13px 10px;
+	border-bottom: 1px solid #b5b5b5;
+}
+
+.dashboard-box .manager-ads img {
+	margin: 20px 0 30px 0;
+	width: 135px;
+}
+
+.dashboard-box .manager-ads .message {
+	margin: 0 auto 35px auto;
+}
+
+.dashboard-box .manager-ads a,
+.dashboard-box .manager-ads a:hover,
+.dashboard-box .manager-ads a:visited {
+	color: inherit;
+	text-decoration: underline;
+}
+
+@media (max-width: 1410px) {
+	.dashboard-box {
+		width: 47%;
+	}
+}
+
+@media (max-width: 940px) {
+	.dashboard-box {
+		width: 97%;
+		margin: 0 auto 20px auto;
+		float: none;
+	}
+}
+
+@media (max-width: 320px) {
+	.dashboard-box .summary .caption {
+		display: none;
+	}
+}

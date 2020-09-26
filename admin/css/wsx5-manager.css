@@ -1,0 +1,92 @@
+.wsx5-manager .logo {
+	max-width: 64px;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.wsx5-manager .introduction {
+	display: inline-block;
+}
+
+.wsx5-manager .box {
+	margin: 12px 20px;
+	max-width: 400px;
+	width: 85%;
+}
+
+.wsx5-manager .ads-box .row {
+	display: table-row;
+}
+
+.wsx5-manager .ads-box img {
+	width: 150px;
+	vertical-align: middle;
+}
+
+.wsx5-manager .ads-box .text {
+	vertical-align: middle;
+	line-height: 20px;
+}
+
+.wsx5-manager .download-box {
+	line-height: 20px;
+}
+
+.wsx5-manager .add-site-box {
+	margin-left: auto;
+	margin-right: auto;
+	line-height: 20px;
+}
+
+.wsx5-manager .add-site-box div {
+	overflow: hidden;
+}
+
+.wsx5-manager .add-site-box img {
+	float: left;
+	padding-right: 10px;
+	display: block;
+}
+
+.wsx5-manager .add-site-box .qr-description {
+	margin-top: 70px;
+	overflow: initial;
+}
+
+@media screen and (min-width: 901px) {
+	.wsx5-manager .ads-box img,
+	.wsx5-manager .ads-box .text {
+		display: table-cell;
+	}
+}
+
+@media screen and (max-width: 900px) {
+
+	.wsx5-manager .logo {
+		display: block;
+		margin: 10px auto;
+	}
+
+	.wsx5-manager .introduction {
+		display: block;
+		text-align: center;
+	}
+
+	.wsx5-manager .box {
+		margin: 10px auto;
+		float: none;
+	}
+
+	.wsx5-manager .add-site-box .qr-description {
+		margin-top: 25px;
+		margin-bottom: 25px;
+		text-align: center;
+	}
+}
+
+@media screen and (max-width: 750px) {
+
+	.wsx5-manager .download-box div a:first-child img {
+		margin-bottom: 10px;
+	}
+}

@@ -1,0 +1,17 @@
+.main-container {
+	margin: 0;
+	width: 100%;
+	border-width: 0;
+}
+
+.noprint {
+	display: none;
+}
+
+.print-text-right, td.print-text-right, th.print-text-right {
+	text-align: right;
+}
+
+table table {
+	margin: 0;
+}

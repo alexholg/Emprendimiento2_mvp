@@ -1,0 +1,96 @@
+.cart form {
+	display: inline;
+}
+
+.cart .search {
+	margin-bottom: 20px;
+	max-width: 300px;
+	width: 100%;
+	border-style: solid;
+	border-width: 1px;
+}
+
+.cart .search .fa {
+	margin-left: 10px;
+}
+
+.cart .search input {
+	border: none;
+	height: 20px;
+}
+
+.cart .orders-table {
+	margin-bottom: 10px;
+}
+
+.cart .store-product-category {
+	padding-bottom: 5px;
+	margin-bottom: 10px;
+}
+
+.cart .store-product-card {
+	display: inline-block;
+	padding: 0;
+}
+
+.cart .store-product-card-image {
+	width: 200px;
+	height: 160px;
+	background-repeat: no-repeat;
+	border: 1px solid #ddd;
+	margin: 10px;
+}
+
+.cart .store-product-card-text {
+	margin-top: 5px;
+	padding: 10px;
+	vertical-align: middle;
+}
+
+.cart .availability {
+	display: inline-block;
+	background-image: url('../../cart/images/cart-available.png');
+	background-repeat: no-repeat;
+	height: 22px;
+	width: 22px;
+	vertical-align: middle;
+}
+
+.cart .available {
+	background-position: 0, 0;
+}
+
+.cart .lack {
+	background-position: -22px, 0;
+}
+
+.cart .unavailable {
+	background-position: -44px, 0;
+}
+
+.cart canvas {
+	margin-top: 20px;
+}
+
+.cart .checkboxes {
+	display: inline-block;
+}
+
+.cart .checkboxes div {
+	display: inline;
+}
+
+@media (max-width: 600px) {
+	.cart .checkboxes {
+		margin-top: 20px;
+		display: block;
+	}
+}
+
+@media (max-width: 400px) {
+	.cart .checkboxes,
+	.cart .checkboxes div {
+		margin-top: 20px;
+		display: block;
+	}
+}

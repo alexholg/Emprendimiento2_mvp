@@ -1,0 +1,243 @@
+#soc_imHeader_pluginAppObj_03 .wrapper{
+    display: inline-block;
+    vertical-align: bottom;
+	
+}
+
+#soc_imHeader_pluginAppObj_03 .wrapper a{
+	display: block;
+	width: 100%;
+	height: 100%;
+	text-decoration: none;
+	overflow: hidden !important;
+	-webkit-border-top-left-radius: 0px;
+	-webkit-border-top-right-radius: 0px;
+	-webkit-border-bottom-right-radius: 0px;
+	-webkit-border-bottom-left-radius: 0px;
+	-moz-border-radius-topleft: 0px;
+	-moz-border-radius-topright: 0px;
+	-moz-border-radius-bottomright: 0px;
+	-moz-border-radius-bottomleft: 0px;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-bottom-left-radius: 0px;
+	background-color: rgb(111,168,220);
+	z-index: 1;
+	position: relative;
+}
+
+#soc_imHeader_pluginAppObj_03 .social-icon{
+	width: 35px;
+	height: 35px;
+	-webkit-border-top-left-radius: 0px;
+	-webkit-border-top-right-radius: 0px;
+	-webkit-border-bottom-right-radius: 0px;
+	-webkit-border-bottom-left-radius: 0px;
+	-moz-border-radius-topleft: 0px;
+	-moz-border-radius-topright: 0px;
+	-moz-border-radius-bottomright: 0px;
+	-moz-border-radius-bottomleft: 0px;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-bottom-left-radius: 0px;
+	display: block;
+	text-align: center;
+	overflow: hidden;
+    margin: 0 0px 0px 0;
+}
+
+#soc_imHeader_pluginAppObj_03 .social-icon.last-item-row {
+	margin-right: 0;
+}
+
+#soc_imHeader_pluginAppObj_03 .social-icon.one-row {
+	margin-left: 1px;
+	margin-right: 1px;
+}
+
+#soc_imHeader_pluginAppObj_03 .social-icon.last-row {
+	margin-bottom: 0;
+}
+
+#soc_imHeader_pluginAppObj_03 .horizontal .social-icon{
+	float: left;
+}
+
+#soc_imHeader_pluginAppObj_03 .social-icon svg{
+	width: 80%;
+	height: 80%;
+	top: 10%;
+	position: relative;
+}
+#soc_imHeader_pluginAppObj_03 .flat .social-icon svg{
+	fill: rgb(12,52,61);
+}
+
+#soc_imHeader_pluginAppObj_03 .social-icon .fallbacktext{
+	display: none;
+}
+.no-svg #soc_imHeader_pluginAppObj_03 .social-icon svg{
+	display: none;
+}
+
+.no-svg #soc_imHeader_pluginAppObj_03 .social-icon .fallbacktext{
+	display: block;
+	line-height: 35px;
+	font-family: Arial, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	color: rgb(12,52,61);
+	text-decoration: none;
+}
+
+/*** EFFECTS ***/
+
+/* GROW */
+#soc_imHeader_pluginAppObj_03 .grow .social-icon{
+	vertical-align: middle;
+	-webkit-transform: perspective(1px) translateZ(0);
+	transform: perspective(1px) translateZ(0);
+	box-shadow: 0 0 1px transparent;
+	-webkit-transition-duration: 0.3s;
+	transition-duration: 0.3s;
+	-webkit-transition-property: transform;
+	transition-property: transform;
+}
+#soc_imHeader_pluginAppObj_03 .grow .social-icon:hover{
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+}
+
+/* SHRINK */
+#soc_imHeader_pluginAppObj_03 .shrink .social-icon{
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px transparent;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+}
+#soc_imHeader_pluginAppObj_03 .shrink .social-icon:hover{
+  -webkit-transform: scale(0.9);
+  transform: scale(0.9);
+}
+
+/* SHAKE */
+
+/* Buzz Out */
+@-webkit-keyframes hvr-buzz-out {
+  20% {
+    -webkit-transform: translateX(-3px) rotate(-2deg);
+    transform: translateX(-3px) rotate(-2deg);
+  }
+  40% {
+    -webkit-transform: translateX(3px) rotate(2deg);
+    transform: translateX(3px) rotate(2deg);
+  }
+  
+  60% {
+    -webkit-transform: translateX(-2px) rotate(-1deg);
+    transform: translateX(-2px) rotate(-1deg);
+  }
+  
+  80% {
+    -webkit-transform: translateX(2px) rotate(1deg);
+    transform: translateX(2px) rotate(1deg);
+  }
+  100% {
+    -webkit-transform: translateX(-1px) rotate(0);
+    transform: translateX(-1px) rotate(0);
+  }
+}
+@keyframes hvr-buzz-out {
+
+  20% {
+    -webkit-transform: translateX(-3px) rotate(-2deg);
+    transform: translateX(-3px) rotate(-2deg);
+  }
+  40% {
+    -webkit-transform: translateX(3px) rotate(2deg);
+    transform: translateX(3px) rotate(2deg);
+  }
+  
+  60% {
+    -webkit-transform: translateX(-2px) rotate(-1deg);
+    transform: translateX(-2px) rotate(-1deg);
+  }
+  
+  80% {
+    -webkit-transform: translateX(2px) rotate(1deg);
+    transform: translateX(2px) rotate(1deg);
+  }
+  100% {
+    -webkit-transform: translateX(-1px) rotate(0);
+    transform: translateX(-1px) rotate(0);
+  }
+}
+
+/* SHAKE */
+#soc_imHeader_pluginAppObj_03 .shake .social-icon{
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px transparent;
+}
+#soc_imHeader_pluginAppObj_03 .shake .social-icon:hover{
+  -webkit-animation-name: hvr-buzz-out;
+  animation-name: hvr-buzz-out;
+  -webkit-animation-duration: 0.3s;
+  animation-duration: 0.3s;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+}
+
+/* FLOAT */
+
+#soc_imHeader_pluginAppObj_03 .float .social-icon{
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px transparent;
+  position: relative;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+}
+
+#soc_imHeader_pluginAppObj_03 .float .social-icon:before{
+  pointer-events: none;
+  position: absolute;
+  z-index: -1;
+  content: '';
+  top: 100%;
+  left: 5%;
+  height: 10px;
+  width: 90%;
+  opacity: 0;
+  background: -webkit-radial-gradient(center, ellipse, rgba(12,52,61, 0.35) 0%, transparent 80%);
+  background: radial-gradient(ellipse at center, rgba(12,52,61, 0.35) 0%, transparent 80%);
+  /* W3C */
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform, opacity;
+  transition-property: transform, opacity;
+}
+#soc_imHeader_pluginAppObj_03 .float .social-icon:hover {
+  overflow: initial;
+  -webkit-transform: translateY(-5px);
+  transform: translateY(-5px);
+  /* move the element up by 5px */
+}
+#soc_imHeader_pluginAppObj_03 .float .social-icon:hover:before {
+  opacity: 1;
+  -webkit-transform: translateY(5px);
+  transform: translateY(5px);
+  /* move the element down by 5px (it will stay in place because it's attached to the element that also moves up 5px) */
+}

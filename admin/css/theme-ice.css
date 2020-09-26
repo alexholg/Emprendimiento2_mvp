@@ -1,0 +1,51 @@
+.fore-mute-light {
+	color: #CED7DC;
+}
+
+.fore-mute {
+	color: #546D79;
+}
+
+.fore-mute-dark {
+	color: #39484F;
+}
+
+.fore-color-1 {
+	color: #44A4F6;
+}
+
+.border-mute {
+	border-color: #546D79;
+}
+
+.border-mute-dark {
+	border-color: #39484F;
+}
+
+.border-mute-light {
+	border-color: #CED7DC;
+}
+
+.border-color-1 {
+	border-color: #44A4F6;
+}
+
+.background-mute {
+	background-color: #546D79;
+}
+
+.background-mute-dark {
+	background-color: #39484F;
+}
+
+.background-mute-light {
+	background-color: #CED7DC;
+}
+
+.background-color-1 {
+	background-color: #44A4F6 !important; /* !important needed to override the default WSX5 CSS code */
+}
+
+.background-mute-vary {
+	background-color: white;
+}

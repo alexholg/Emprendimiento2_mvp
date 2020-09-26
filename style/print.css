@@ -1,0 +1,16 @@
+.imHidden {display: none;}
+.imBgStretcher {display: none;}
+.imTip { display: none !important; }
+.text-tabs { display: none !important; }
+.text-tab-print-title { display: block !important; font-weight: bold; }
+.text-container, .text-container > div, .text-inner, .text-inner div, .text-tab-content { padding: 0 0 10px 0 !important; height: auto !important; left: auto !important; top: auto !important; position: static !important; display: block !important; clear: both !important; }
+#imPage {display: block !important;}
+#imHeader {display: none !important;}
+#imHeaderBg {display : none !important;}
+#imFooter {display : none !important;}
+#imFooterBg {display: none !important;}
+#imContent {height: auto !important;}
+#imSideBar {display: none !important;}
+#imStickyBarContainer {display: none !important;}
+#imPageToTop {display: none !important;}
+img {position: static !important;}

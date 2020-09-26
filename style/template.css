@@ -1,0 +1,83 @@
+html { position: relative; margin: 0; padding: 0; height: 100%; }
+body { margin: 0; padding: 0; text-align: left; height: 100%; }
+#imPageExtContainer {min-height: 100%; }
+#imPageIntContainer { position: relative;}
+#imPage { position: relative; width: 100%; }
+#imHeaderBg { position: absolute; left: 0; top: 0; width: 100%; }
+#imContent { position: relative; }
+#imFooterBg { position: absolute; left: 0; bottom: 0; width: 100%; }
+#imStickyBarContainer { visibility: hidden; position: fixed; overflow: hidden; }
+#imPageToTop { position: fixed; bottom: 30px; right: 30px; z-index: 5000; display: none; opacity: 0.75 }
+#imPageToTop:hover {opacity: 1; cursor: pointer; }
+@media (min-width: 1150px) {
+		#imPageExtContainer { background-image: none; background-color: rgba(255, 255, 255, 1); }
+		#imPage { padding-top: 0px; padding-bottom: 0px; min-width: 1150px; }
+		#imHeaderBg { height: 100px; background-image: none; background-color: rgba(255, 255, 255, 1); }
+		#imHeader { background-image: none; background-color: rgba(255, 255, 255, 1); }
+		#imHeaderObjects { margin-left: auto; margin-right: auto; position: relative; height: 100px; width:1150px; }
+		#imContent { align-self: start; padding: 0px 0 0px 0; }
+		#imContentGraphics { min-height: 750px; background-image: none; background-color: transparent; }
+		#imFooterBg { height: 200px; background-image: none; background-color: rgba(93, 181, 190, 1); }
+		#imFooter { background-image: none; background-color: transparent; }
+		#imFooterObjects { margin-left: auto; margin-right: auto; position: relative; height: 200px; width:1150px; }
+		#imSideBar { background-image: none; background-color: transparent; overflow: visible; zoom: 1; z-index: 200; }
+		#imSideBarObjects { position: relative; height: 750px; }
+	
+}
+@media (max-width: 1149px) and (min-width: 720px) {
+		#imPageExtContainer { background-image: none; background-color: rgba(255, 255, 255, 1); }
+		#imPage { padding-top: 0px; padding-bottom: 0px; min-width: 720px; }
+		#imHeaderBg { height: 100px; background-image: none; background-color: rgba(255, 255, 255, 1); }
+		#imHeader { background-image: none; background-color: rgba(255, 255, 255, 1); }
+		#imHeaderObjects { margin-left: auto; margin-right: auto; position: relative; height: 100px; width:720px; }
+		#imContent { align-self: start; padding: 0px 0 0px 0; }
+		#imContentGraphics { min-height: 600px; background-image: none; background-color: transparent; }
+		#imFooterBg { height: 150px; background-image: none; background-color: rgba(93, 181, 190, 1); }
+		#imFooter { background-image: none; background-color: transparent; }
+		#imFooterObjects { margin-left: auto; margin-right: auto; position: relative; height: 150px; width:720px; }
+		#imSideBar { background-image: none; background-color: transparent; overflow: visible; zoom: 1; z-index: 200; }
+		#imSideBarObjects { position: relative; height: 600px; }
+		#imStickyBarContainer { top: 0; left: 0; right: 0; margin: auto; width: 100%; height: 60px; box-sizing: border-box; z-index: 10301; }
+		#imStickyBarGraphics { top: 0; left: 0; right: 0; margin: auto; width: 100%; height: 60px; box-sizing: border-box; background-image: none; background-color: rgba(245, 245, 247, 1); position: absolute; opacity: 1}
+		#imStickyBar { position: relative; top: 0; left: 0; margin: auto; width: 720px }
+		#imStickyBarObjects { position: relative; height: 60px; }
+	
+}
+@media (max-width: 719px) and (min-width: 480px) {
+		#imPageExtContainer { background-image: none; background-color: rgba(255, 255, 255, 1); }
+		#imPage { padding-top: 0px; padding-bottom: 0px; min-width: 480px; }
+		#imHeaderBg { height: 100px; background-image: none; background-color: transparent; }
+		#imHeader { background-image: none; background-color: rgba(255, 255, 255, 1); }
+		#imHeaderObjects { margin-left: auto; margin-right: auto; position: relative; height: 100px; width:480px; }
+		#imContent { align-self: start; padding: 0px 0 0px 0; }
+		#imContentGraphics { min-height: 600px; background-image: none; background-color: transparent; }
+		#imFooterBg { height: 150px; background-image: none; background-color: rgba(93, 181, 190, 1); }
+		#imFooter { background-image: none; background-color: transparent; }
+		#imFooterObjects { margin-left: auto; margin-right: auto; position: relative; height: 150px; width:480px; }
+		#imSideBar { background-image: none; background-color: rgba(211, 218, 220, 1); overflow: visible; zoom: 1; z-index: 200; }
+		#imSideBarObjects { position: relative; height: 600px; }
+		#imStickyBarContainer { top: 0; left: 0; right: 0; margin: auto; width: 100%; height: 60px; box-sizing: border-box; z-index: 10301; }
+		#imStickyBarGraphics { top: 0; left: 0; right: 0; margin: auto; width: 100%; height: 60px; box-sizing: border-box; background-image: none; background-color: rgba(245, 245, 247, 1); position: absolute; opacity: 1}
+		#imStickyBar { position: relative; top: 0; left: 0; margin: auto; width: 480px }
+		#imStickyBarObjects { position: relative; height: 60px; }
+	
+}
+@media (max-width: 479px)  {
+		#imPageExtContainer { background-image: none; background-color: rgba(255, 255, 255, 1); }
+		#imPage { padding-top: 0px; padding-bottom: 0px; }
+		#imHeaderBg { height: 100px; background-image: none; background-color: transparent; }
+		#imHeader { background-image: none; background-color: rgba(255, 255, 255, 1); }
+		#imHeaderObjects { margin-left: auto; margin-right: auto; position: relative; height: 100px; width:320px; }
+		#imContent { align-self: start; padding: 0px 0 0px 0; }
+		#imContentGraphics { min-height: 600px; background-image: none; background-color: transparent; }
+		#imFooterBg { height: 150px; background-image: none; background-color: rgba(93, 181, 190, 1); }
+		#imFooter { background-image: none; background-color: transparent; }
+		#imFooterObjects { margin-left: auto; margin-right: auto; position: relative; height: 150px; width:320px; }
+		#imSideBar { background-image: none; background-color: transparent; overflow: visible; zoom: 1; z-index: 200; }
+		#imSideBarObjects { position: relative; height: 600px; }
+		#imStickyBarContainer { top: 0; left: 0; right: 0; margin: auto; width: 100%; height: 60px; box-sizing: border-box; z-index: 10301; }
+		#imStickyBarGraphics { top: 0; left: 0; right: 0; margin: auto; width: 100%; height: 60px; box-sizing: border-box; background-image: none; background-color: rgba(245, 245, 247, 1); position: absolute; opacity: 1}
+		#imStickyBar { position: relative; top: 0; left: 0; margin: auto; width: 320px }
+		#imStickyBarObjects { position: relative; height: 60px; }
+	
+}

@@ -1,0 +1,64 @@
+.login-margin {
+	padding: 40px;
+}
+
+.login-box {
+	margin: 0 auto;
+	max-width: 380px;
+	width: 100%;
+}
+
+.login-box .header {
+	padding: 20px 20px 0 20px;
+	display: table-row;
+}
+
+.login-box .header .logo {
+	max-width: 48px;
+	display: table-cell;
+	vertical-align: top;
+	padding: 20px 0 20px 20px;
+}
+
+.login-box .header .text {
+	display: table-cell;
+	vertical-align: top;
+	padding: 20px;
+}
+
+.login-box .header .text > div {
+	margin-bottom: 5px;
+}
+
+.login-box .login-form {
+	padding: 0 20px 20px 20px;
+}
+
+.login-box input[type=text],
+.login-box input[type=password] {
+	border-style: solid;
+	border-width: 0 0 1px 0;
+	background-color: transparent;
+	width: 100%;
+	margin-top: 30px;
+}
+
+.login-box .error {
+	margin-bottom: 40px;
+	margin-top: 5px;
+	color: red;
+}
+
+@media screen and (max-width: 460px) {
+	.login-box .header {
+		display: block;
+	}
+
+	.login-box .header .logo,
+	.login-box .header .text {
+		display: block;
+		text-align: center;
+		margin: 0 auto;
+		padding: 5px;
+	}
+}

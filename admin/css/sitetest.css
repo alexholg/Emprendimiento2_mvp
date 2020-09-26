@@ -1,0 +1,14 @@
+.sitetest input[type=text], .sitetest input[type=password] {
+	margin-bottom: 0;
+	max-width: 400px;
+	width: 100%;
+}
+
+.sitetest textarea {
+	border-radius: 0;
+	margin-bottom: 0;
+}
+
+.sitetest select {
+	border-radius: 0;
+}
